@@ -45,8 +45,7 @@ The following screenshots show the program's console output for the four assignm
 
 ## Test Case 1: Normal input - Show Raipur connections
 
-![Test Case 1 output](<img width="1600" height="900" alt="test_case_1" src="https://github.com/user-attachments/assets/382ae793-9954-4f25-9850-c3c699282414" />
-)
+![Test Case 1 output](test_case_1.png)
 
 ## Test Case 2: Boundary input - Durg to Durg
 
