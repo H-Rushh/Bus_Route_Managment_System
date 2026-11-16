@@ -45,21 +45,21 @@ The following screenshots show the program's console output for the four assignm
 
 ## Test Case 1: Normal input - Show Raipur connections
 
-![Test Case 1 output](https://github.com/user-attachments/assets/d9275dfc-21bf-481e-8723-5e010f45c6de)
+![Test Case 1 output]("C:\Users\harsh\OneDrive\Documents\Screenshots\test_case_1.png")
 
 ## Test Case 2: Boundary input - Durg to Durg
 
-![Test Case 2 output](https://github.com/user-attachments/assets/8e6311c4-0dd9-4557-b836-297a50e3e682)
+![Test Case 2 output]("C:\Users\harsh\OneDrive\Documents\Screenshots\test_case_2.png")
 
 ## Test Case 3: Invalid / unavailable input
 
 This screenshot includes both checks: Durg to Jagdalpur (no route) and Delhi (stop not found).
 
-![Test Case 3 output](https://github.com/user-attachments/assets/efc3f777-ae18-4b5e-bc60-561c2568fdc1)
+![Test Case 3 output]("C:\Users\harsh\OneDrive\Documents\Screenshots\test_case_3.png")
 
 ## Test Case 4: Different valid scenario - Bhilai to Bilaspur
 
-![Test Case 4 output](https://github.com/user-attachments/assets/08166826-716d-45d7-be10-3918e74d1181)
+![Test Case 4 output]("C:\Users\harsh\OneDrive\Documents\Screenshots\test_case_4.png")
 
 # 5. Result
 
