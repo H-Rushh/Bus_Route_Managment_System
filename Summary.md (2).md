@@ -43,7 +43,7 @@ A `while` loop keeps the program running until the user selects Exit. The menu p
 
 The following screenshots show the program's console output for the four assignment test cases.
 
-### Test Case 1: Normal input - Show Raipur connections
+## Test Case 1: Normal input - Show Raipur connections
 
 ![Test Case 1 output](<img width="1600" height="900" alt="test_case_1" src="https://github.com/user-attachments/assets/d9275dfc-21bf-481e-8723-5e010f45c6de" />
 )
