@@ -2,21 +2,21 @@
 
 # 1. Introduction
 
-The Bus Route Management System is a Python 3 console-based project. It stores bus stops and the distances between directly connected stops in a dictionary. The user can view the connections of a stop or find a route between two stops. Breadth First Search (BFS) is used to find a route with the fewest connections.
+The Bus Route Management System is a Python 3 console-based project. It stores bus stops and the distances between directly connected stops in a dictionary. The user can view the connections of a stop and find the shortest route using BFS. The project covers basic graph operations and menu-based interaction.
 
 # 2. How the project was implemented
 
 # Step 1: Store the bus network
 
-A Python dictionary named `bus` stores each stop as a key. Its value is another dictionary containing the neighbouring stops and the distance to each one. Since roads work in both directions, both sides of every road are stored.
+A Python dictionary named `bus` stores each stop as a key. Its value is another dictionary containing the neighbouring stops and the distance to each one. Since roads work in both directions, both directions are stored in the dictionary.
 
 # Step 2: Display connections
 
-The `show_connections(stop)` function first checks whether the entered stop exists in the dictionary. If it exists, the function displays every directly connected stop and its distance. Otherwise, it displays a stop-not-found message.
+The `show_connections(stop)` function first checks whether the entered stop exists in the dictionary. If it exists, the function displays every directly connected stop and its distance. Otherwise, it prints a message saying the stop does not exist.
 
 # Step 3: Find a route using BFS
 
-The `find_route(start, end)` function checks the entered stop names and handles the case where the source and destination are the same. It then uses a queue to explore possible paths level by level. A `visited` list prevents the same stop from being added repeatedly. When the destination is reached, the path with the fewest connections is selected.
+The `find_route(start, end)` function checks the entered stop names and handles the case where the source and destination are the same. It then uses a queue to explore possible paths level by level. A `visited` list ensures each stop is not checked more than once.
 
 # Step 4: Calculate distance and fare
 
@@ -45,29 +45,25 @@ The following screenshots show the program's console output for the four assignm
 
 ## Test Case 1: Normal input - Show Raipur connections
 
-![Test Case 1 output](<img width="1600" height="900" alt="test_case_1" src="https://github.com/user-attachments/assets/d9275dfc-21bf-481e-8723-5e010f45c6de" />
-)
+![Test Case 1 output](https://github.com/user-attachments/assets/d9275dfc-21bf-481e-8723-5e010f45c6de)
 
-# Test Case 2: Boundary input - Durg to Durg
+## Test Case 2: Boundary input - Durg to Durg
 
-![Test Case 2 output](<img width="1600" height="900" alt="test_case_2" src="https://github.com/user-attachments/assets/8e6311c4-0dd9-4557-b836-297a50e3e682" />
-)
+![Test Case 2 output](https://github.com/user-attachments/assets/8e6311c4-0dd9-4557-b836-297a50e3e682)
 
-# Test Case 3: Invalid / unavailable input
+## Test Case 3: Invalid / unavailable input
 
 This screenshot includes both checks: Durg to Jagdalpur (no route) and Delhi (stop not found).
 
-![Test Case 3 output](<img width="1600" height="900" alt="test_case_3" src="https://github.com/user-attachments/assets/efc3f777-ae18-4b5e-bc60-561c2568fdc1" />
-)
+![Test Case 3 output](https://github.com/user-attachments/assets/efc3f777-ae18-4b5e-bc60-561c2568fdc1)
 
-# Test Case 4: Different valid scenario - Bhilai to Bilaspur
+## Test Case 4: Different valid scenario - Bhilai to Bilaspur
 
-![Test Case 4 output](<img width="1600" height="900" alt="test_case_4" src="https://github.com/user-attachments/assets/08166826-716d-45d7-be10-3918e74d1181" />
-)
+![Test Case 4 output](https://github.com/user-attachments/assets/08166826-716d-45d7-be10-3918e74d1181)
 
 # 5. Result
 
-The program successfully performs the required menu operations and covers all four assignment test cases. It displays direct connections, finds a route with the fewest stops using BFS, calculates the distance, and displays the fare.
+The program successfully performs the required menu operations and covers all four assignment test cases. It displays direct connections, finds a route with the fewest stops using BFS, calculates the total journey distance, and computes the fare correctly.
 
 # 6. How to execute
 
