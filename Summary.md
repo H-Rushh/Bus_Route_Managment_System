@@ -59,7 +59,7 @@ This screenshot includes both checks: Durg to Jagdalpur (no route) and Delhi (st
 
 ## Test Case 4: Different valid scenario - Bhilai to Bilaspur
 
-![Test Case 4 output](test_case_4.png)
+![Test Case 4 output](Screenshot/test_case_4.png)
 
 # 5. Result
 
