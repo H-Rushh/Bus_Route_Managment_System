@@ -49,7 +49,7 @@ The following screenshots show the program's console output for the four assignm
 
 ## Test Case 2: Boundary input - Durg to Durg
 
-![Test Case 2 output](Screenshot/test_case_2.png)
+![Test Case 2 output](screenshot/Test_Case_2.png)
 
 ## Test Case 3: Invalid / unavailable input
 
