@@ -75,7 +75,7 @@ The project was checked against the four cases in the assignment:
 | 3. Invalid / unavailable input | Durg to Jagdalpur; show connections for Delhi | No route between Durg and Jagdalpur; Delhi is not found |
 | 4. Different valid scenario | Bhilai to Bilaspur | Bhilai -> Raipur -> Bilaspur; 3 stops; 140 km; Rs. 210.00 |
 
-The console output screenshots are included in [`Summary.md`](Summary.md) and the `screenshots/` folder.
+The console output screenshots are included in [`Summary.md`](Summary.md) and the [`screenshot/`](screenshot/)folder.
 
 ## Repository files
 
