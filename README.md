@@ -84,7 +84,7 @@ bus-route-management/
 ├── one.py
 ├── README.md
 ├── Summary.md
-└── screenshots/
+└── screenshot/
     ├── Test_Case_1.png
     ├── Test_Case_2.png
     ├── Test_Case_3.png
