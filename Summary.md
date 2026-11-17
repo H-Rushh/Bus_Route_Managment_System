@@ -55,11 +55,11 @@ The following screenshots show the program's console output for the four assignm
 
 This screenshot includes both checks: Durg to Jagdalpur (no route) and Delhi (stop not found).
 
-![Test Case 3 output](Screenshot/test_case_3.png)
+![Test Case 3 output](screenshot/Test_Case_3.png)
 
 ## Test Case 4: Different valid scenario - Bhilai to Bilaspur
 
-![Test Case 4 output](Screenshot/test_case_4.png)
+![Test Case 4 output](screenshot/Test_Case_4.png)
 
 # 5. Result
 
