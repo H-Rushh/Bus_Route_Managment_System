@@ -85,8 +85,8 @@ bus-route-management/
 ├── README.md
 ├── Summary.md
 └── screenshots/
-    ├── test_case_1.png
-    ├── test_case_2.png
-    ├── test_case_3.png
-    └── test_case_4.png
+    ├── Test_Case_1.png
+    ├── Test_Case_2.png
+    ├── Test_Case_3.png
+    └── Test_Case_4.png
 ```
