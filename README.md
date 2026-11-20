@@ -80,7 +80,7 @@ The console output screenshots are included in [`Summary.md`](Summary.md) and th
 ## Repository files
 
 ```text
-bus-route-management/
+Bus-Route-Management-System/
 ├── one.py
 ├── README.md
 ├── Summary.md
